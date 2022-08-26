@@ -39,3 +39,14 @@ let Defaultcolor="blue";
 let Currentcolor=Usercolor || Defaultcolor
 console.log(Currentcolor);
 }
+   
+{
+//BitWise Operators
+//HUman code ->machine code(0,1)
+// 1-> 00000001 ->1
+// 2-> 00000010 ->2
+// 3-> 00000011 ->3	
+
+console.log(1|2);
+console.log(5|4);
+}
