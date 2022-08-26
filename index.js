@@ -50,3 +50,14 @@ console.log(Currentcolor);
 console.log(1|2);
 console.log(5|4);
 }
+
+{//operator precedence
+
+let x=2+4*5;
+console.log(x);
+//in this upper statement it calculated based on preference so we have to tell abou the priority.
+
+let y=(2+4)*5;
+console.log(y);
+}
+
