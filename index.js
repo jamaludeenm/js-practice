@@ -5,7 +5,7 @@
 //3,boolean (true or false)
 //4,undefined (same)
 // 5,null  (nothing)
-//6,Array
+//6,Array ()
 //7,function
 //8,object
 
