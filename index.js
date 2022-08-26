@@ -1,3 +1,17 @@
+{//Data Types
+
+//1,Number (or) Integer(1 2 3...)
+//2,string (" ")
+//3,boolean (true or false)
+//4,undefined (same)
+// 5,null  (nothing)
+//6,Array
+//7,function
+//8,object
+
+}
+
+
 {//strict equality operator(datatype + value)
 console.log(1==1)
 }  
