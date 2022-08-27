@@ -16,8 +16,13 @@ let favcolors = ["red","blue","yellow"]
    add(54,453);
 //8,object {bundle of data type}
 
+person = {
+	name: "kumar",
+	age: 33,
+	sex:"male"
 }
-
+console.log(person)
+}
 
 {//strict equality operator(datatype + value)
 console.log(1==1)
@@ -81,4 +86,3 @@ console.log(x);
 let y=(2+4)*5;
 console.log(y);
 }
-
