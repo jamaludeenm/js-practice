@@ -5,7 +5,10 @@
 //3,boolean (true or false)
 //4,undefined (same)
 // 5,null  (nothing)
-//6,Array ()
+//6,Array []
+let favcolors = ["red","blue","yellow"]
+    favcolors[4]= "green" 
+     console.log(favcolors)
 //7,function (unction is defined with the function keyword, followed by a name, followed by parentheses ())
    function add(number1,number2){
 	 console.log(number1+number2)
