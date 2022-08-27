@@ -6,8 +6,12 @@
 //4,undefined (same)
 // 5,null  (nothing)
 //6,Array ()
-//7,function
-//8,object
+//7,function (unction is defined with the function keyword, followed by a name, followed by parentheses ())
+   function add(number1,number2){
+	 console.log(number1+number2)
+   }
+   add(54,453);
+//8,object {bundle of data type}
 
 }
 
