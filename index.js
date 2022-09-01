@@ -12,17 +12,24 @@ let favcolors = ["red","blue","yellow"]
 //7,function (unction is defined with the function keyword, followed by a name, followed by parentheses ())
    function add(number1,number2){
 	 console.log(number1+number2)
-   }
+   } 
    add(54,453);
 //8,object {bundle of data type}
+	{
+		let car={
+			brand:"honda",
+			model:"civic",
+			type:"diesel"
+		}
+		document.write(car.type);
+		document.write("<br>")
+		
+		
+	}
 
-person = {
-	name: "kumar",
-	age: 33,
-	sex:"male"
 }
-console.log(person)
-}
+
+{//js operators
 
 {//strict equality operator(datatype + value)
 console.log(1==1)
@@ -85,4 +92,18 @@ console.log(x);
 
 let y=(2+4)*5;
 console.log(y);
+}
+}
+{
+  //if else condition
+  let israining=true;
+  let iscloudy=false;
+  
+  if(israining&&iscloudy){
+	  document.write("don't forget to get umberlla")
+  }
+  else{
+	  document.write("enjoy the climate")
+  }
+  document.write()
 }
