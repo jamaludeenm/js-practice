@@ -21,8 +21,8 @@ let favcolors = ["red","blue","yellow"]
 			model:"civic",
 			type:"diesel"
 		}
-		document.write(car.type);
-		document.write("<br>")
+		console.log(car.type);
+		console.log("<br>")
 		
 		
 	}
@@ -100,10 +100,71 @@ console.log(y);
   let iscloudy=false;
   
   if(israining&&iscloudy){
-	  document.write("don't forget to get umberlla")
+	  console.log("don't forget to get umberlla")
   }
   else{
-	  document.write("enjoy the climate")
+	  console.log("enjoy the climate")
   }
-  document.write()
+  console.log();
+  console.log("<br>")
+}
+{
+ //java-script loops
+ //for-loops ,while-loop ,dowhile-loop ,forin-loop ,forof-loop
+ 
+ //1,for-loop syntx
+ 
+ // for(initial expression;condition;step)
+	 //  document.write();
+	 {
+		 //for-loop
+		 for(let i=0;i <= 5;i++){
+			 if (i % 2 !==0){
+		 console.log("number#"+i)
+		 console.log("<br>")
+			 } 
+}
+}
+    {
+		//while-loop
+	    let i=15
+		while (i >= 2){
+			 if (i % 2 !==0){			
+			console.log("oddnumber" +i);
+			 }
+			 i--;
+		}	
+	}	
+}
+
+{
+	
+        function calc1()
+        {
+            var addition1 = parseInt(document.getElementById("addition1").value);
+            var addition2 = parseInt(document.getElementById("addition2").value);
+            document.getElementById("Aresult").value = addition1 + addition2;
+
+        }
+		  function calc2()
+        {
+            var subraction1 = parseInt(document.getElementById("subraction1").value);
+            var subraction2 = parseInt(document.getElementById("subraction2").value);
+            document.getElementById("sresult").value = subraction1 - subraction2;
+
+        }
+		  function calc3()
+        {
+            var multiplication1 = parseInt(document.getElementById("multiplication1").value);
+            var multiplication2 = parseInt(document.getElementById("multiplication2").value);
+            document.getElementById("mresult").value = multiplication1 * multiplication2;
+
+        }
+		  function calc4()
+        {
+            var division1 = parseInt(document.getElementById("division1").value);
+            var division2 = parseInt(document.getElementById("division2").value);
+            document.getElementById("dresult").value = division1 / division2;
+
+        }
 }
